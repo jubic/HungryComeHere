@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content" android:text=""
+		android:id="@+id/restName" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_alignParentLeft="true" />
+	<RatingBar android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/restRating"
+		android:layout_below="@+id/restName" android:layout_alignLeft="@+id/restName"
+		android:numStars="3" android:stepSize="0.5" android:saveEnabled="true" />
+	<Button android:layout_height="wrap_content" android:text="@string/saveRating"
+		android:id="@+id/save" android:layout_width="fill_parent"
+		android:layout_below="@+id/restRating" android:layout_alignLeft="@+id/restRating" />
+</RelativeLayout>

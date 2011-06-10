@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HungryComeHere!</string>
+    <string name="app_name">HungryComeHere</string>
+    <string name="mapview">Map View</string>
+    <string name="satview">Satellite View</string>
+    <string name="mapMoreInfo">More Info</string>
+    <string name="mapBack">Back</string>
+    <string name="feedback">Feedback to Restaurant</string>
+    <string name="view">View Restaurant Info</string>
+    <string name="saveRating">Save Rating</string>
+    <string name="ratingSubmitted">Your rating has been submitted</string>
+    <string name="restName">Name: </string>
+    <string name="restAddress">Address: </string>
+    <string name="restPhoneNumber">Contact: </string>
+    <string name="restOpeningHours">Opening Hours: </string>
+    <string name="chooseAction">Choose Your Action</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_alignParentLeft="true"
+		android:layout_height="wrap_content" android:text="@string/restName"
+		android:layout_width="wrap_content" android:id="@+id/restNameTV"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="@string/restAddress"
+		android:layout_width="wrap_content" android:id="@+id/restAddressTV"
+		android:layout_below="@+id/restNameTV" android:layout_alignLeft="@+id/restNameTV"
+		android:layout_alignRight="@+id/restNameTV"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="@string/restPhoneNumber"
+		android:layout_width="wrap_content" android:id="@+id/restPhoneNumberTV"
+		android:layout_below="@+id/restAddressTV" android:layout_alignLeft="@+id/restAddressTV"
+		android:layout_alignRight="@+id/restAddressTV"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="@string/restOpeningHours"
+		android:layout_width="wrap_content" android:id="@+id/textView1"
+		android:layout_below="@+id/restPhoneNumberTV"
+		android:layout_alignLeft="@+id/restPhoneNumberTV"
+		android:layout_alignRight="@+id/restPhoneNumberTV"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="TextView"
+		android:layout_width="wrap_content" android:id="@+id/restOpeningHoursInfo"
+		android:layout_toRightOf="@+id/textView1" android:layout_alignTop="@+id/textView1"
+		android:layout_alignBottom="@+id/textView1"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="TextView"
+		android:layout_width="wrap_content" android:id="@+id/restPhoneNumberInfo"
+		android:layout_toRightOf="@+id/restPhoneNumberTV"
+		android:layout_alignTop="@+id/restPhoneNumberTV"
+		android:layout_alignBottom="@+id/restPhoneNumberTV" android:autoLink="phone"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="TextView"
+		android:layout_width="wrap_content" android:id="@+id/restAddressInfo"
+		android:layout_toRightOf="@+id/restAddressTV" android:layout_alignTop="@+id/restAddressTV"
+		android:layout_alignBottom="@+id/restAddressTV"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="TextView"
+		android:layout_width="wrap_content" android:id="@+id/restNameInfo"
+		android:layout_toRightOf="@+id/restNameTV" android:layout_alignTop="@+id/restNameTV"
+		android:layout_alignBottom="@+id/restNameTV"></TextView>
+</RelativeLayout>
